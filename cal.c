@@ -12,11 +12,25 @@ void addition(int x, int y)
 
 void division(int x, int y)
 {
-    printf("Division is %d\n", x/y);
+    if (x==0)
+    {
+        printf("Division is zero\n");
+    }
+    else if(y==0)
+    {
+        printf("Division is infinite\n");
+    }
+    else
+    printf("Division is %d\n", x*y);
 }
 
 void multiplication(int x, int y)
 {
+    if (x==0||y==0)
+    {
+        printf("Division is zero");
+    }
+    else
     printf("Multiplication is %d\n", x*y);
 }
   
