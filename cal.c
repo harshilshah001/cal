@@ -14,11 +14,11 @@ void division(int x, int y)
 {
     if (x==0)
     {
-        printf("Division is zero\n");
+        printf("Division is zero");
     }
     else if(y==0)
     {
-        printf("Division is infinite\n");
+        printf("Division is infinite");
     }
     else
     printf("Division is %d\n", x*y);
@@ -26,11 +26,6 @@ void division(int x, int y)
 
 void multiplication(int x, int y)
 {
-    if (x==0||y==0)
-    {
-        printf("Division is zero");
-    }
-    else
     printf("Multiplication is %d\n", x*y);
 }
   
