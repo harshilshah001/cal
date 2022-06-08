@@ -35,8 +35,10 @@ int main()
     {
         printf("Enter a valid number");    
         return 0;
-    }  
-    (*func[a])(x,y);
-  
+    }
+    else
+    {	    
+        (*func[a])(x,y);
+    }
     return 0;
 }
